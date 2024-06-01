@@ -15,3 +15,6 @@ console.log(obj_1, obj_2);
 let str = 'varun'
 console.log(`My Name is ${str.toUpperCase()}`, '\n', typeof str);
 
+let myDate = new Date();
+console.log(myDate.toLocaleString());
+console.log(`Timestamps: ${myDate.getDate()}/${myDate.getMonth() + 1}/${myDate.getFullYear()}`);
